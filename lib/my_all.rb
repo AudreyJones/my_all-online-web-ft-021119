@@ -5,7 +5,7 @@ def my_all?(collection)
   return_values = []
   while i < collection.length
     yield(collection[i])
-      
+
     i += 1
   end
 end
